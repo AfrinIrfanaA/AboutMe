@@ -1,0 +1,40 @@
+body{
+ background-image: url(aesthetic.png)
+}
+h1{
+    font-size:xx-large;
+    color:rgb(255, 255, 255)
+}
+.basic{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    color: bisque;
+    
+}
+a{
+    font-size:x-large;
+    color:rgb(255, 255, 255)
+}
+img{
+    height: 20%;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .basic {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    a {
+        font-size: large; /* Adjust size for smaller screens */
+    }
+    h1 {
+        font-size: large; /* Adjust size for smaller screens */
+    }
+}
